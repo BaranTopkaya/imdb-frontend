@@ -1,0 +1,20 @@
+/* src/assets/main.css */
+
+@import './base.css';
+
+#app {
+  width: 100%;
+  min-height: 100vh; /* Ekran yüksekliği kadar minimum yükseklik */
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  
+  /* Ekran görüntüsündeki gibi koyu bir tema için arkaplan rengi ekleyelim */
+  background-color: #141414; 
+  color: #fff;
+}
+
+/* 
+  Varsayılan Vue stillerini (yeşil linkler vs.) kaldırdık. 
+  Artık bileşenleriniz kendi stillerini daha rahat uygulayabilir.
+*/
